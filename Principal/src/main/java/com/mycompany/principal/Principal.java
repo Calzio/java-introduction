@@ -11,13 +11,12 @@ package com.mycompany.principal;
 public class Principal {
 
     public static void main(String[] args) {
-        EnderecoP endereco = new EnderecoP("Morioh", 22, "Cidade S");
-        Cliente clientes = new Cliente("Yoshikage Kira", 33, endereco);
+        Cliente cliente1 = new Cliente("Marta", 18, Sexo.FEMININO);
         
-        System.out.println("Nome: " + clientes.getNome());
-        System.out.println("Idade: " + clientes.getIdade());
-        System.out.println("Lagradouro: " + clientes.getEndereco().getLagradouro());
-        System.out.println("Número: " + clientes.getEndereco().getNumero());
-        System.out.println("Cidade: " + clientes.getEndereco().getCidade());
+        System.out.println("\nDados do cliente: ");
+        System.out.println("Nome: " + cliente1.getNome());
+        System.out.println("Idade: " + cliente1.getIdade());
+        System.out.println("Sexo: " + cliente1.getSexo().getTexto());
+        System.out.println("Sexo: " + cliente1.getSexo().getCharactere());
     }
 }
