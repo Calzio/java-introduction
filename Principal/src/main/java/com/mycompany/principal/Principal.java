@@ -11,12 +11,10 @@ package com.mycompany.principal;
 public class Principal {
 
     public static void main(String[] args) {
-        Cliente cliente1 = new Cliente("Marta", 18, Sexo.FEMININO);
+        Juridica pessoaJuridica = new Juridica("913810930", "2304194i10", "Aruan", "39184u109");
+        Fisica pessoaFisica = new Fisica("3018418013", "845301941", "27/05/2006", "Tom", "019524901");
         
-        System.out.println("\nDados do cliente: ");
-        System.out.println("Nome: " + cliente1.getNome());
-        System.out.println("Idade: " + cliente1.getIdade());
-        System.out.println("Sexo: " + cliente1.getSexo().getTexto());
-        System.out.println("Sexo: " + cliente1.getSexo().getCharactere());
+        System.out.println(pessoaFisica);
+        System.out.println(pessoaJuridica);
     }
 }

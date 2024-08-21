@@ -1,3 +1,4 @@
-com\mycompany\principal\Cliente.class
-com\mycompany\principal\EnderecoP.class
+com\mycompany\principal\Fisica.class
+com\mycompany\principal\Pessoa.class
 com\mycompany\principal\Principal.class
+com\mycompany\principal\Juridica.class
