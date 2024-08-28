@@ -34,15 +34,5 @@ public abstract class Juridica extends Pessoa{
         this.inscricaoEstadual = inscricaoEstadual;
     }
 
-    
-
-    @Override
-    public String toString() {
-        return "\nPessoa juridica: " +
-                super.toString() +
-                "\nCNPJ: " + cnpj + 
-                "\nInscrição estadual: " + inscricaoEstadual;
-    }
-
           
 }
