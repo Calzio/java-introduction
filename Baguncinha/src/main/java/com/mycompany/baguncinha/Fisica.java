@@ -45,14 +45,5 @@ public abstract class Fisica extends Pessoa{
     public void setDataNascimento(String dataNascimento) {
         this.dataNascimento = dataNascimento;
     }
-
-    @Override
-    public String toString() {
-        return "\nPessoa física: " +
-                super.toString() +
-                "\nSexo: " + sexo +
-                "\nEstado civil: " + estadoCivil.getTexto() +
-                "\nData de nascimento: " + dataNascimento;
-    }
     
 }
