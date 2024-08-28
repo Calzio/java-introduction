@@ -11,7 +11,7 @@ package com.mycompany.baguncinha;
 public class Baguncinha {
 
     public static void main(String[] args) {
-        Fisica fis = new Fisica(Sexo.MASCULINO, EstCivil.CASADO, dataNascimento, nome, telefone, email, endereco) {
-        }
+        Fisica fis = new Fisica(Sexo.MASCULINO, EstCivil.CASADO, dataNascimento, nome, telefone, email, endereco) 
+        
     }
 }
