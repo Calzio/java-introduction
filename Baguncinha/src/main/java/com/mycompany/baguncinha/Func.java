@@ -65,17 +65,4 @@ public abstract class Func extends Fisica{
         this.salario = salario;
     }
 
-    @Override
-    public String toString() {
-        return "\nFuncionário:" + 
-                super.toString() +
-                "\nCPF: " + cpf + 
-                "\nRG: " + rg + 
-                "\nMatrícula: " + matricula + 
-                "\nSetor: " + setor + 
-                "\nSalário:" + salario ;
-    }
-
-    
-    
 }
